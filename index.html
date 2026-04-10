@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Legacies Creative Agency - Big Agency Creativity, Small Business Heart</title>
+    <meta name="description" content="Little Legacies Creative Agency offers web design, branding, video production, and creative services for small businesses and startups.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Little Legacies</span>
+                <span class="logo-tagline">Creative Agency</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link cta-btn">Let's Create</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <canvas id="hero-canvas"></canvas>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text reveal-up">
+                <h1 class="hero-title">
+                    <span class="title-line">We Bring Your</span>
+                    <span class="title-line highlight">Creative Vision</span>
+                    <span class="title-line">To Life</span>
+                </h1>
+                <p class="hero-subtitle">Big agency creativity, small business heart.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary magnetic">Start Your Project</a>
+                    <a href="#portfolio" class="btn btn-secondary magnetic">View Our Work</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-shapes">
+                    <div class="shape shape-1" data-speed="2"></div>
+                    <div class="shape shape-2" data-speed="4"></div>
+                    <div class="shape shape-3" data-speed="3"></div>
+                    <div class="shape shape-4" data-speed="5"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">What We Do</span>
+                <h2 class="section-title">Our Creative Services</h2>
+                <p class="section-subtitle">From concept to creation, we've got you covered</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card magnetic-card reveal-up" data-delay="0">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="15" y="20" width="70" height="50" rx="4" stroke="currentColor" stroke-width="3"/>
+                            <line x1="15" y1="30" x2="85" y2="30" stroke="currentColor" stroke-width="3"/>
+                            <circle cx="22" cy="25" r="2" fill="currentColor"/>
+                            <circle cx="30" cy="25" r="2" fill="currentColor"/>
+                            <circle cx="38" cy="25" r="2" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Web Design</h3>
+                    <p class="service-description">Stunning, responsive websites that convert visitors into customers. Built with modern tech and optimized for speed.</p>
+                    <div class="service-hover-effect"></div>
+                </div>
+
+                <div class="service-card magnetic-card reveal-up" data-delay="100">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M50 15L65 35H35L50 15Z" stroke="currentColor" stroke-width="3"/>
+                            <circle cx="30" cy="60" r="15" stroke="currentColor" stroke-width="3"/>
+                            <rect x="55" y="45" width="30" height="30" stroke="currentColor" stroke-width="3"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Brand Identity</h3>
+                    <p class="service-description">Logo design, color palettes, and visual systems that make your brand unforgettable.</p>
+                    <div class="service-hover-effect"></div>
+                </div>
+
+                <div class="service-card magnetic-card reveal-up" data-delay="200">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="20" y="30" width="60" height="40" rx="4" stroke="currentColor" stroke-width="3"/>
+                            <polygon points="40,45 40,60 55,52.5" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Video Production</h3>
+                    <p class="service-description">Engaging video content that tells your story and captures attention across all platforms.</p>
+                    <div class="service-hover-effect"></div>
+                </div>
+
+                <div class="service-card magnetic-card reveal-up" data-delay="300">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="25" y="15" width="50" height="70" rx="4" stroke="currentColor" stroke-width="3"/>
+                            <line x1="35" y1="30" x2="65" y2="30" stroke="currentColor" stroke-width="2"/>
+                            <line x1="35" y1="40" x2="65" y2="40" stroke="currentColor" stroke-width="2"/>
+                            <line x1="35" y1="50" x2="55" y2="50" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Social Media Content</h3>
+                    <p class="service-description">Scroll-stopping graphics and videos designed to boost engagement and grow your audience.</p>
+                    <div class="service-hover-effect"></div>
+                </div>
+
+                <div class="service-card magnetic-card reveal-up" data-delay="400">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="30" stroke="currentColor" stroke-width="3"/>
+                            <path d="M50 20 L50 50 L70 60" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Creative Consulting</h3>
+                    <p class="service-description">Strategic guidance to help you make smart creative decisions that align with your business goals.</p>
+                    <div class="service-hover-effect"></div>
+                </div>
+
+                <div class="service-card magnetic-card reveal-up" data-delay="500">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="15" y="30" width="35" height="50" rx="2" stroke="currentColor" stroke-width="3"/>
+                            <rect x="50" y="20" width="35" height="60" rx="2" stroke="currentColor" stroke-width="3"/>
+                            <line x1="25" y1="45" x2="40" y2="45" stroke="currentColor" stroke-width="2"/>
+                            <line x1="60" y1="40" x2="75" y2="40" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Print & Digital Design</h3>
+                    <p class="service-description">Business cards, flyers, presentations, and digital assets that elevate your brand presence.</p>
+                    <div class="service-hover-effect"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Our Work</span>
+                <h2 class="section-title">Creative Projects</h2>
+                <p class="section-subtitle">See what we've created for amazing clients</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item reveal-up" data-delay="0">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #D4AF37 0%, #B8960F 100%);">
+                            <span>Project 1</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Brand Launch Package</h3>
+                        <p class="portfolio-category">Branding • Web Design</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item reveal-up" data-delay="100">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #1E90AA 0%, #156878 100%);">
+                            <span>Project 2</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Social Media Campaign</h3>
+                        <p class="portfolio-category">Social Media • Video</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item reveal-up" data-delay="200">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #9B30FF 0%, #7B25CC 100%);">
+                            <span>Project 3</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">E-commerce Website</h3>
+                        <p class="portfolio-category">Web Design • Development</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item reveal-up" data-delay="300">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #FF1493 0%, #C71585 100%);">
+                            <span>Project 4</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Promotional Video</h3>
+                        <p class="portfolio-category">Video Production</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-cta reveal-up">
+                <a href="#contact" class="btn btn-primary magnetic">Start Your Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text reveal-up">
+                    <span class="section-tag">About Us</span>
+                    <h2 class="section-title">We're Little Legacies</h2>
+                    <p class="about-description">
+                        A creative agency that believes every small business deserves big agency creativity. 
+                        We combine innovative design, strategic thinking, and AI-powered efficiency to deliver 
+                        premium creative services at accessible prices.
+                    </p>
+                    <p class="about-description">
+                        Whether you're just starting out or ready to level up your brand, we're here to bring 
+                        your vision to life with customized solutions that actually work for your business.
+                    </p>
+                    <div class="about-values">
+                        <div class="value-item">
+                            <span class="value-number">01</span>
+                            <h4>Collaborative</h4>
+                            <p>We work with you, not just for you</p>
+                        </div>
+                        <div class="value-item">
+                            <span class="value-number">02</span>
+                            <h4>Innovative</h4>
+                            <p>Cutting-edge creativity meets smart strategy</p>
+                        </div>
+                        <div class="value-item">
+                            <span class="value-number">03</span>
+                            <h4>Accessible</h4>
+                            <p>Premium quality at fair, transparent pricing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual reveal-up" data-delay="200">
+                    <div class="about-image-wrapper">
+                        <div class="about-shape shape-1"></div>
+                        <div class="about-shape shape-2"></div>
+                        <div class="about-shape shape-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">How We Work</span>
+                <h2 class="section-title">Our Creative Process</h2>
+                <p class="section-subtitle">From idea to launch in four simple steps</p>
+            </div>
+
+            <div class="process-steps">
+                <div class="process-step reveal-up" data-delay="0">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Discovery</h3>
+                        <p>We listen, ask questions, and dive deep into your goals, audience, and vision.</p>
+                    </div>
+                    <div class="step-line"></div>
+                </div>
+
+                <div class="process-step reveal-up" data-delay="100">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Strategy</h3>
+                        <p>We develop a creative roadmap tailored to your unique needs and objectives.</p>
+                    </div>
+                    <div class="step-line"></div>
+                </div>
+
+                <div class="process-step reveal-up" data-delay="200">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Creation</h3>
+                        <p>Our team brings your vision to life with stunning design and expert execution.</p>
+                    </div>
+                    <div class="step-line"></div>
+                </div>
+
+                <div class="process-step reveal-up" data-delay="300">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Launch</h3>
+                        <p>We deliver polished, ready-to-use assets and support you beyond launch.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-text reveal-up">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Let's Create Something Amazing</h2>
+                    <p class="contact-description">
+                        Ready to bring your vision to life? We'd love to hear about your project. 
+                        Book a free consultation and let's start creating your legacy.
+                    </p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 8L10.89 13.26C11.23 13.47 11.61 13.59 12 13.59C12.39 13.59 12.77 13.47 13.11 13.26L21 8M5 19H19C20.1 19 21 18.1 21 17V7C21 5.9 20.1 5 19 5H5C3.9 5 3 5.9 3 7V17C3 18.1 3.9 19 5 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <a href="mailto:hello@littlelegacies.com">hello@littlelegacies.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta reveal-up" data-delay="200">
+                    <a href="https://square.site/book/YOUR-SQUARE-BOOKING-LINK" target="_blank" class="btn btn-primary btn-large magnetic">
+                        Book Free Consultation
+                    </a>
+                    <p class="cta-note">Takes 2 minutes • No commitment required</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-text">Little Legacies</span>
+                        <span class="logo-tagline">Creative Agency</span>
+                    </div>
+                    <p class="footer-tagline">Big agency creativity,<br>small business heart.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Web Design</a></li>
+                            <li><a href="#services">Brand Identity</a></li>
+                            <li><a href="#services">Video Production</a></li>
+                            <li><a href="#services">Social Media</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#process">Process</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="https://www.linkedin.com/company/little-legacies" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://www.instagram.com/littlelegacies" target="_blank">Instagram</a></li>
+                            <li><a href="https://twitter.com/littlelegacies" target="_blank">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Little Legacies Creative Agency. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
